@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import ExerciseDetails from "./pages/ExerciseDetails";
 import { Box } from "@mui/material";
-
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 const App = () => {
   return (
     <Box width="400px" sx={{ width: { xl: "1448px" } }} m="auto">
